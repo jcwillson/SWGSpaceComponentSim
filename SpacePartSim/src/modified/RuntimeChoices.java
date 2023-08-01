@@ -69,21 +69,21 @@ public class RuntimeChoices {
 		} while(!rollsInit);
 		
 		//Bulk generation of all the parts
-		System.out.println("Generating " + 129*rolls*4 + " armor rolls...");
+		System.out.println("Generating " + 129*rolls*3 + " stat rolls for armor...");
 		XSim.runXSim("armor", rolls, path);
-		System.out.println("Generating " + 130*rolls + " booster rolls...");
+		System.out.println("Generating " + 130*rolls*8 + " stat rolls for boosters...");
 		XSim.runXSim("booster", rolls, path);
-		System.out.println("Generating " + 130*rolls + " capacitor rolls...");
+		System.out.println("Generating " + 130*rolls*5 + " stat rolls for capacitors...");
 		XSim.runXSim("capacitor", rolls, path);
-		System.out.println("Generating " + 112*rolls + " droid interface rolls...");
+		System.out.println("Generating " + 112*rolls*4 + " stat rolls for droid interfaces...");
 		XSim.runXSim("droid_interface", rolls, path);
-		System.out.println("Generating " + 125*rolls + " engine rolls...");
+		System.out.println("Generating " + 125*rolls*7 + " stat rolls for engines...");
 		XSim.runXSim("engine", rolls, path);
-		System.out.println("Generating " + 106*rolls + " reactor rolls...");
+		System.out.println("Generating " + 106*rolls*4 + " stat rolls for reactors...");
 		XSim.runXSim("reactor", rolls, path);
-		System.out.println("Generating " + 124*rolls + " shield rolls...");
+		System.out.println("Generating " + 124*rolls*6 + " stat rolls for shields...");
 		XSim.runXSim("shield", rolls, path);
-		System.out.println("Generating " + 120*rolls + " weapon rolls...");
+		System.out.println("Generating " + 120*rolls*9 + " stat rolls for weapons...");
 		XSim.runXSim("weapon", rolls, path);
 		System.out.println("Data output to: " + path);
 		input.close();
