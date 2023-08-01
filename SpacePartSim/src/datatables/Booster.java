@@ -33,7 +33,6 @@ public class Booster extends ShipComponent{
 		fltMaximumArmorHitpointsMod = Float.valueOf(stats[15]);
 		fltMaximumArmorHitpoints = Float.valueOf(stats[16]);
 		fltCurrentArmorHitpoints = Float.valueOf(stats[17]);
-		fltEfficiency = Float.valueOf(stats[18]);
 		fltEnergyMaintenanceModifier = Float.valueOf(stats[19]);
 		fltEnergyMaintenance = Float.valueOf(stats[20]);
 		fltMassModifier = Float.valueOf(stats[21]);

@@ -17,7 +17,6 @@ public class Armor extends ShipComponent{
 		fltMaximumArmorHitpointsMod = Float.valueOf(stats[4]);
 		fltMaximumArmorHitpoints = Float.valueOf(stats[5]);
 		fltCurrentArmorHitpoints = Float.valueOf(stats[6]);
-		fltEfficiency = Float.valueOf(stats[7]);
 		fltEnergyMaintenanceModifier = Float.valueOf(stats[8]);
 		fltEnergyMaintenance = Float.valueOf(stats[9]);
 		fltMassModifier = Float.valueOf(stats[10]);

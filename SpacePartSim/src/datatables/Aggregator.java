@@ -15,7 +15,7 @@ public class Aggregator {
 		String line = "";
 		parts = new ArrayList<ShipComponent>();
 		try {
-			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\jcwga\\Documents\\SpaceSim\\SpacePartSim\\src\\datatables\\ship\\components\\" + type + ".tab"));
+			BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\jcwga\\git\\SpacePartSimRepo\\SpacePartSim\\src\\datatables\\" + type + ".tab"));
 			//Skip header and typing line
 			br.readLine();
 			br.readLine();

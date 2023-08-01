@@ -69,7 +69,7 @@ public class RuntimeChoices {
 		} while(!rollsInit);
 		
 		//Bulk generation of all the parts
-		System.out.println("Generating " + 129*rolls + " armor rolls...");
+		System.out.println("Generating " + 129*rolls*4 + " armor rolls...");
 		XSim.runXSim("armor", rolls, path);
 		System.out.println("Generating " + 130*rolls + " booster rolls...");
 		XSim.runXSim("booster", rolls, path);

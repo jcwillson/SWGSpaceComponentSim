@@ -4,7 +4,6 @@ public abstract class ShipComponent {
 	protected String strType, strComments;
 	protected float fltCurrentHitpoints, fltMaximumHitpoints;
 	protected float fltMaximumArmorHitpointsMod, fltMaximumArmorHitpoints, fltCurrentArmorHitpoints;
-	protected float fltEfficiency;
 	protected float fltEnergyMaintenanceModifier, fltEnergyMaintenance;
 	protected float fltMassModifier, fltMass;
 	protected int reverseEngineeringLevel;
@@ -41,10 +40,6 @@ public abstract class ShipComponent {
 	public float getFltCurrentArmorHitpoints()
 	{
 		return fltCurrentArmorHitpoints;
-	}
-	public float getFltEfficiency()
-	{
-		return fltEfficiency;
 	}
 	public float getFltEnergyMaintenanceModifier()
 	{

@@ -22,7 +22,6 @@ public class DroidInterface extends ShipComponent{
 		fltMaximumArmorHitpointsMod = Float.valueOf(stats[6]);
 		fltMaximumArmorHitpoints = Float.valueOf(stats[7]);
 		fltCurrentArmorHitpoints = Float.valueOf(stats[8]);
-		fltEfficiency = Float.valueOf(stats[9]);
 		fltEnergyMaintenanceModifier = Float.valueOf(stats[10]);
 		fltEnergyMaintenance = Float.valueOf(stats[11]);
 		fltMassModifier = Float.valueOf(stats[12]);

@@ -14,7 +14,7 @@ public class obj_id implements Comparable, Serializable{
 	private String shipComponentType = "";
 	private String templateName;
 	//General attributes
-	private float componentMaximumArmorHitpoints, componentMaximumHitpoints, componentMass, componentEnergyMaintenance, componentEnergyEfficiency;
+	private float componentMaximumArmorHitpoints, componentMass, componentEnergyMaintenance;
 	//Booster specific attributes
 	private float boosterMaximumEnergy, boosterEnergyRechargeRate, boosterEnergyConsumptionRate, boosterAcceleration, boosterMaximumSpeed;
 	//Capacitor specific attributes
@@ -57,10 +57,6 @@ public class obj_id implements Comparable, Serializable{
 	{
 		componentMaximumArmorHitpoints = a;
 	}
-	public void setComponentMaximumHitpoints(obj_id x, float a)
-	{
-		componentMaximumHitpoints = a;
-	}
 	public void setComponentMass(obj_id x, float a)
 	{
 		componentMass = a;
@@ -69,11 +65,7 @@ public class obj_id implements Comparable, Serializable{
 	{
 		componentEnergyMaintenance = a;
 	}
-	public void setComponentEnergyEfficiency(obj_id x, float a)
-	{
-		componentEnergyEfficiency = a;
-	}
-	
+
 	//Booster attributes
 	public void setBoosterMaximumEnergy(obj_id x, float a)
 	{
@@ -203,7 +195,7 @@ public class obj_id implements Comparable, Serializable{
 	 */
 	public String header()
 	{
-		String ret = "Armor,Hitpoints,Mass,Energy Maintenance";
+		String ret = "Armor,Mass,Energy Maintenance";
 		switch(shipComponentType) {
 			case "booster": {
 				ret = ret.concat(",Max Energy,Recharge Rate, Consumption Rate, Acceleration, Maximum Speed");
@@ -243,7 +235,7 @@ public class obj_id implements Comparable, Serializable{
 	@Override
 	public String toString()
 	{
-		String ret = componentMaximumArmorHitpoints + "," + componentMaximumHitpoints + "," + componentMass + "," + componentEnergyMaintenance;
+		String ret = componentMaximumArmorHitpoints + "," + componentMass + "," + componentEnergyMaintenance;
 		switch(shipComponentType) {
 			case "booster": {
 				ret = ret.concat("," + boosterMaximumEnergy + "," + boosterEnergyRechargeRate + "," + boosterEnergyConsumptionRate + "," + boosterAcceleration + "," + boosterMaximumSpeed);

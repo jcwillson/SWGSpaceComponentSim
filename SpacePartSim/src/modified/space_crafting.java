@@ -78,8 +78,6 @@ public class space_crafting
         float fltMass = dctParams.getFltMass();
         fltMass = getBellValue(fltMass, fltMassModifier);
 
-        float fltEfficiency = dctParams.getFltEfficiency();
-
         float fltArmor = dctParams.getFltMaximumArmorHitpoints();
         float fltArmorMod = dctParams.getFltMaximumArmorHitpointsMod();
         fltArmor = getBellValue(fltArmor, fltArmorMod);
@@ -93,12 +91,12 @@ public class space_crafting
         //setComponentCurrentConduitHitpoints(objComponent, fltArmor);
 
         //setComponentCurrentHitpoints(objComponent, fltArmor);
-        objComponent.setComponentMaximumHitpoints(objComponent, fltArmor);
+        //setComponentMaximumHitpoints(objComponent, fltArmor);
 
         objComponent.setComponentMass(objComponent, fltMass);
 
         objComponent.setComponentEnergyMaintenance(objComponent, fltEnergyMaintenance);
-        objComponent.setComponentEnergyEfficiency(objComponent, fltEfficiency);
+        //objComponent.setComponentEnergyEfficiency(objComponent, fltEfficiency);
         //setComponentGeneralEfficiency(objComponent, fltEfficiency);
 
         return objComponent;

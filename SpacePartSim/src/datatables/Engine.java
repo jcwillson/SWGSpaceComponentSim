@@ -30,7 +30,6 @@ public class Engine extends ShipComponent {
 		fltMaximumArmorHitpointsMod = Float.valueOf(stats[12]);
 		fltMaximumArmorHitpoints = Float.valueOf(stats[13]);
 		fltCurrentArmorHitpoints = Float.valueOf(stats[14]);
-		fltEfficiency = Float.valueOf(stats[15]);
 		fltEnergyMaintenanceModifier = Float.valueOf(stats[16]);
 		fltEnergyMaintenance = Float.valueOf(stats[17]);
 		fltMassModifier = Float.valueOf(stats[18]);

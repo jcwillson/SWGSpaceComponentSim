@@ -27,7 +27,6 @@ public class Shield extends ShipComponent {
 		fltMaximumArmorHitpointsMod = Float.valueOf(stats[10]);
 		fltMaximumArmorHitpoints = Float.valueOf(stats[11]);
 		fltCurrentArmorHitpoints = Float.valueOf(stats[12]);
-		fltEfficiency = Float.valueOf(stats[13]);
 		fltEnergyMaintenanceModifier = Float.valueOf(stats[14]);
 		fltEnergyMaintenance = Float.valueOf(stats[15]);
 		fltMassModifier = Float.valueOf(stats[16]);

@@ -24,7 +24,6 @@ public class Capacitor extends ShipComponent{
 		fltMaximumArmorHitpointsMod = Float.valueOf(stats[9]);
 		fltMaximumArmorHitpoints = Float.valueOf(stats[10]);
 		fltCurrentArmorHitpoints = Float.valueOf(stats[11]);
-		fltEfficiency = Float.valueOf(stats[12]);
 		fltEnergyMaintenanceModifier = Float.valueOf(stats[13]);
 		fltEnergyMaintenance = Float.valueOf(stats[14]);
 		fltMassModifier = Float.valueOf(stats[15]);

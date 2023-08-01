@@ -36,7 +36,6 @@ public class Weapon extends ShipComponent {
 		fltMaximumArmorHitpointsMod = Float.valueOf(stats[16]);
 		fltMaximumArmorHitpoints = Float.valueOf(stats[17]);
 		fltCurrentArmorHitpoints = Float.valueOf(stats[18]);
-		fltEfficiency = Float.valueOf(stats[19]);
 		fltEnergyMaintenanceModifier = Float.valueOf(stats[20]);
 		fltEnergyMaintenance = Float.valueOf(stats[21]);
 		fltMassModifier = Float.valueOf(stats[22]);
